@@ -1,0 +1,54 @@
+.container{
+    width: auto;
+    display: flex;
+    text-align: left;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backToHome{
+    margin: 3rem 0 0;
+}
+
+.navegador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 3px 3px 1px 1px black;
+    position: relative;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+}
+
+.parrafo{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.parrafo:hover{
+    font-size: 21px;
+    color: rgb(213, 33, 213);
+    text-decoration: line-through;
+}
+
+.cuerpo{
+    min-height: 50vh;
+    margin: 10px 150px 0 150px; 
+    padding: 10px 50px 0 50px; 
+    box-shadow: 4px 6px 6px 4px rgba(241, 154, 229, 0.44);
+}
+
+
+    
+    
